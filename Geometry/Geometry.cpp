@@ -1,4 +1,4 @@
-//geometry
+п»ї//geometry
 #include<iostream>
 using namespace std;
 
@@ -13,7 +13,7 @@ using namespace std;
 #define WHITE_BOX "\xDB\xDB"
 #define BLACK_BOX " "
 /*
-escapeпооследовательность \х позволяет добавить в константу символ
+escapeРїРѕРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ \С… РїРѕР·РІРѕР»СЏРµС‚ РґРѕР±Р°РІРёС‚СЊ РІ РєРѕРЅСЃС‚Р°РЅС‚Сѓ СЃРёРјРІРѕР»
 */
 
 
@@ -29,7 +29,7 @@ void main()
 
 	int n;
 	setlocale(LC_ALL, "");
-	cout << "введите размер доски"; cin >> n;
+	cout << "РІРІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё"; cin >> n;
 	n++;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i <= n; i++)
